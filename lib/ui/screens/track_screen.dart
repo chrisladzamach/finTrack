@@ -1,3 +1,4 @@
+import 'package:fin_track/ui/widgets/menu.dart';
 import 'package:fin_track/ui/widgets/status_card.dart';
 import 'package:flutter/material.dart';
 
@@ -12,11 +13,7 @@ class TrackScreen extends StatelessWidget {
         children: [
           StatusCard(),
           SizedBox(height: 20),
-          Text("Hello"),
-          Text("Hello"),
-          Text("Hello"),
-          Text("Hello"),
-          Text("Hello"),
+          Menu()
         ],
       ),
     );
