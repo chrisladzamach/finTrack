@@ -26,7 +26,7 @@ class MenuCard extends StatelessWidget {
         onTap: onTap,
         child: SizedBox(
           width: 120,
-          height: 100,
+          height: 90,
           child: Padding(
             padding: const EdgeInsets.all(8.0),
             child: Column(

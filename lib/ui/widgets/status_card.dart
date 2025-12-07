@@ -31,7 +31,7 @@ class StatusCard extends StatelessWidget {
                     style: TextStyle(fontSize: 10, color: Colors.blueGrey),
                   ),
                   Text(
-                    '\$ 1000,00',
+                    '\$ 1,000.00',
                     style: TextStyle(fontSize: 20, color: Colors.white),
                   ),
                   // TODO: Implementar barra de progresso

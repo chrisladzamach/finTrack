@@ -13,7 +13,14 @@ class TrackScreen extends StatelessWidget {
         children: [
           StatusCard(),
           SizedBox(height: 20),
-          Menu()
+          Menu(),
+          SizedBox(height: 20),
+          Container(
+            alignment: Alignment.centerLeft,
+            padding: const EdgeInsets.only(left: 20),
+            child: const Text("Historial", style: TextStyle(color: Colors.blueGrey, fontSize: 16)),
+          ),
+          SizedBox(height: 20),
         ],
       ),
     );

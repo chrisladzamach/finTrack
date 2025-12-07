@@ -14,27 +14,21 @@ class Menu extends StatelessWidget {
           color: Colors.green,
           title: "Ingresos",
           value: "\$ 1,000.00",
-          onTap: () {
-            // print("Card presionada!");
-          },
+          onTap: () {},
         ),
         MenuCard(
           icon: Icons.arrow_downward_outlined,
           color: Colors.red,
           title: "Egresos",
           value: "\$ 1,000.00",
-          onTap: () {
-            // print("Card presionada!");
-          },
+          onTap: () {},
         ),
         MenuCard(
           icon: Icons.savings_outlined,
           color: Colors.yellow,
           title: "Ahorros",
           value: "\$ 1,000.00",
-          onTap: () {
-            // print("Card presionada!");
-          },
+          onTap: () {},
         ),
       ],
     );
