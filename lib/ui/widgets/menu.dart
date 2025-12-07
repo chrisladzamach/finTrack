@@ -29,7 +29,7 @@ class Menu extends StatelessWidget {
         ),
         MenuCard(
           icon: Icons.savings_outlined,
-          color: Colors.green,
+          color: Colors.yellow,
           title: "Ahorros",
           value: "\$ 1,000.00",
           onTap: () {
